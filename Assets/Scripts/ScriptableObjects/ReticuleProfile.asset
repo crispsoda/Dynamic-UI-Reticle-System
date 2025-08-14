@@ -1,0 +1,567 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff592d09c367aa949abe49e15f62275e, type: 3}
+  m_Name: ReticuleProfile
+  m_EditorClassIdentifier: 
+  profiles:
+  - reticleMode: 2
+    canHitReact: 1
+    hitReactDuration: 0.08
+    resetOnComplete: 1
+    canCharge: 1
+    fullChargeTime: 2
+    innerReticleFloatProperties:
+    - propertyName: _ScreenColorMultiply
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _UniversalScale
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _CenterScale
+      reticleLayer: 0
+      dynamicPropertyType: 2
+      value: 0.077
+      endValue: 0.12
+    - propertyName: _MinBrightnessCenter
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _MidCircleScale
+      reticleLayer: 0
+      dynamicPropertyType: 2
+      value: 0.41
+      endValue: 0.3
+    - propertyName: _OutlineScale
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.444
+      endValue: 0
+    - propertyName: _MinBrightnessOutline
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _MinimumContrastThreshold
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.119
+      endValue: 0
+    - propertyName: _MinimumContrastAmount
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.302
+      endValue: 0
+    innerReticleColorProperties:
+    - propertyName: _CenterColor
+      reticleLayer: 0
+      dynamicPropertyType: 2
+      value: {r: 0, g: 0, b: 0, a: 0}
+      endValue: {r: 1, g: 1, b: 1, a: 0}
+    - propertyName: _MidCircleColor
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+      endValue: {r: 0, g: 0, b: 0, a: 0}
+    - propertyName: _OutlineColor
+      reticleLayer: 0
+      dynamicPropertyType: 2
+      value: {r: 0, g: 0, b: 0, a: 0}
+      endValue: {r: 1, g: 1, b: 1, a: 0}
+    innerReticleKeywordProperties:
+    - propertyName: _SET_INVERSE_TO_GREYSCALE
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 1
+    - propertyName: _FOVEATED_RENDERING_NON_UNIFORM_RASTER
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    - propertyName: _MID_CIRCLE_IS_TRANSPARENT
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 1
+    - propertyName: _ENFORCE_MINIMUM_CONTRAST
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    outerReticleFloatProperties:
+    - propertyName: _InnerReticuleMask
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.487
+      endValue: 0
+    - propertyName: _ChargeBarWidth
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.265
+      endValue: 0
+    - propertyName: _ChargeBarRotation
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 180
+      endValue: 0
+    - propertyName: _SegmentAmount
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 4
+      endValue: 0
+    - propertyName: _SegmentWidth
+      reticleLayer: 1
+      dynamicPropertyType: 2
+      value: 1.09
+      endValue: 2
+    - propertyName: _SegmentSpread
+      reticleLayer: 1
+      dynamicPropertyType: 2
+      value: 0.71
+      endValue: 0.05
+    - propertyName: _SegmentInnerEdge
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.139
+      endValue: 0
+    - propertyName: _SegmentOuterEdge
+      reticleLayer: 1
+      dynamicPropertyType: 2
+      value: 0.222
+      endValue: 0.842
+    - propertyName: _SegmentVisibility
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _SegmentStartRotation
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0
+      endValue: 1
+    - propertyName: _RuntimeRotationSpeed
+      reticleLayer: 1
+      dynamicPropertyType: 2
+      value: 0.6
+      endValue: 0
+    - propertyName: _ChargeBarProgress
+      reticleLayer: 1
+      dynamicPropertyType: 3
+      value: 0
+      endValue: 0
+    - propertyName: _HitReactVisibility
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _Radians45Reference
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.7854
+      endValue: 0
+    outerReticleColorProperties:
+    - propertyName: _ChargeBarColor
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: {r: 0.7735849, g: 0, b: 0, a: 0}
+      endValue: {r: 0, g: 0, b: 0, a: 0}
+    - propertyName: _SegmentColor
+      reticleLayer: 1
+      dynamicPropertyType: 2
+      value: {r: 0, g: 0, b: 0, a: 0}
+      endValue: {r: 1, g: 1, b: 1, a: 0}
+    outerReticleKeywordProperties:
+    - propertyName: _FOVEATED_RENDERING_NON_UNIFORM_RASTER
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    - propertyName: _CHARGECOMPLETE
+      reticleLayer: 1
+      dynamicPropertyType: 3
+      keywordEnabled: 1
+    - propertyName: _ROTATESEGMENTSRUNTIME
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    - propertyName: _SEGMENTSAREHITREACT
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+  - reticleMode: 1
+    canHitReact: 1
+    hitReactDuration: 0.07
+    resetOnComplete: 1
+    canCharge: 0
+    fullChargeTime: 2
+    innerReticleFloatProperties:
+    - propertyName: _ScreenColorMultiply
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _UniversalScale
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.382
+      endValue: 0
+    - propertyName: _CenterScale
+      reticleLayer: 0
+      dynamicPropertyType: 2
+      value: 0.173
+      endValue: 0.2
+    - propertyName: _MinBrightnessCenter
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _MidCircleScale
+      reticleLayer: 0
+      dynamicPropertyType: 2
+      value: 0.657
+      endValue: 0.618
+    - propertyName: _OutlineScale
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.803
+      endValue: 0
+    - propertyName: _MinBrightnessOutline
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _MinimumContrastThreshold
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.119
+      endValue: 0
+    - propertyName: _MinimumContrastAmount
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.302
+      endValue: 0
+    innerReticleColorProperties:
+    - propertyName: _CenterColor
+      reticleLayer: 0
+      dynamicPropertyType: 2
+      value: {r: 1, g: 1, b: 1, a: 1}
+      endValue: {r: 0, g: 0.5254902, b: 1, a: 0}
+    - propertyName: _MidCircleColor
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: {r: 0, g: 0.01004601, b: 1, a: 1}
+      endValue: {r: 0, g: 0, b: 0, a: 0}
+    - propertyName: _OutlineColor
+      reticleLayer: 0
+      dynamicPropertyType: 2
+      value: {r: 1, g: 1, b: 1, a: 0}
+      endValue: {r: 0.4117647, g: 0.78039217, b: 1, a: 0}
+    innerReticleKeywordProperties:
+    - propertyName: _SET_INVERSE_TO_GREYSCALE
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 1
+    - propertyName: _FOVEATED_RENDERING_NON_UNIFORM_RASTER
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    - propertyName: _MID_CIRCLE_IS_TRANSPARENT
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 1
+    - propertyName: _ENFORCE_MINIMUM_CONTRAST
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    outerReticleFloatProperties:
+    - propertyName: _InnerReticuleMask
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.354
+      endValue: 0
+    - propertyName: _ChargeBarWidth
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0
+      endValue: 0
+    - propertyName: _ChargeBarRotation
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 180
+      endValue: 0
+    - propertyName: _SegmentAmount
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 4
+      endValue: 0
+    - propertyName: _SegmentWidth
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 1.26
+      endValue: 0
+    - propertyName: _SegmentSpread
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.16
+      endValue: 0
+    - propertyName: _SegmentInnerEdge
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.032
+      endValue: 0
+    - propertyName: _SegmentOuterEdge
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.253
+      endValue: 0
+    - propertyName: _SegmentVisibility
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _SegmentStartRotation
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0
+      endValue: 0
+    - propertyName: _RuntimeRotationSpeed
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 2
+      endValue: 0
+    - propertyName: _ChargeBarProgress
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0
+      endValue: 0
+    - propertyName: _HitReactVisibility
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _Radians45Reference
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.7854
+      endValue: 0
+    outerReticleColorProperties:
+    - propertyName: _ChargeBarColor
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: {r: 1, g: 1, b: 1, a: 0}
+      endValue: {r: 0, g: 0, b: 0, a: 0}
+    - propertyName: _SegmentColor
+      reticleLayer: 1
+      dynamicPropertyType: 2
+      value: {r: 1, g: 1, b: 1, a: 0}
+      endValue: {r: 0.4117647, g: 0.78039217, b: 1, a: 0}
+    outerReticleKeywordProperties:
+    - propertyName: _FOVEATED_RENDERING_NON_UNIFORM_RASTER
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    - propertyName: _CHARGECOMPLETE
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    - propertyName: _ROTATESEGMENTSRUNTIME
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    - propertyName: _SEGMENTSAREHITREACT
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+  - reticleMode: 0
+    canHitReact: 1
+    hitReactDuration: 0.35
+    resetOnComplete: 0
+    canCharge: 0
+    fullChargeTime: 1
+    innerReticleFloatProperties:
+    - propertyName: _ScreenColorMultiply
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _UniversalScale
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.382
+      endValue: 0
+    - propertyName: _CenterScale
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.308
+      endValue: 0
+    - propertyName: _MinBrightnessCenter
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _MidCircleScale
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.588
+      endValue: 0
+    - propertyName: _OutlineScale
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.787
+      endValue: 0
+    - propertyName: _MinBrightnessOutline
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _MinimumContrastThreshold
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.119
+      endValue: 0
+    - propertyName: _MinimumContrastAmount
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: 0.302
+      endValue: 0
+    innerReticleColorProperties:
+    - propertyName: _CenterColor
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: {r: 1, g: 1, b: 1, a: 1}
+      endValue: {r: 0, g: 0, b: 0, a: 0}
+    - propertyName: _MidCircleColor
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: {r: 0, g: 0.01004601, b: 1, a: 1}
+      endValue: {r: 0, g: 0, b: 0, a: 0}
+    - propertyName: _OutlineColor
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      value: {r: 1, g: 1, b: 1, a: 1}
+      endValue: {r: 0, g: 0, b: 0, a: 0}
+    innerReticleKeywordProperties:
+    - propertyName: _SET_INVERSE_TO_GREYSCALE
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 1
+    - propertyName: _FOVEATED_RENDERING_NON_UNIFORM_RASTER
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    - propertyName: _MID_CIRCLE_IS_TRANSPARENT
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 1
+    - propertyName: _ENFORCE_MINIMUM_CONTRAST
+      reticleLayer: 0
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    outerReticleFloatProperties:
+    - propertyName: _InnerReticuleMask
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.354
+      endValue: 0
+    - propertyName: _ChargeBarWidth
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0
+      endValue: 0
+    - propertyName: _ChargeBarRotation
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 180
+      endValue: 0
+    - propertyName: _SegmentAmount
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 4
+      endValue: 0
+    - propertyName: _SegmentWidth
+      reticleLayer: 1
+      dynamicPropertyType: 2
+      value: 2.5
+      endValue: 4
+    - propertyName: _SegmentSpread
+      reticleLayer: 1
+      dynamicPropertyType: 2
+      value: 0.35
+      endValue: 0.8
+    - propertyName: _SegmentInnerEdge
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.032
+      endValue: 0
+    - propertyName: _SegmentOuterEdge
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.474
+      endValue: 0
+    - propertyName: _SegmentVisibility
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 1
+      endValue: 0
+    - propertyName: _SegmentStartRotation
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.7854
+      endValue: 0
+    - propertyName: _RuntimeRotationSpeed
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 2
+      endValue: 0
+    - propertyName: _ChargeBarProgress
+      reticleLayer: 1
+      dynamicPropertyType: 3
+      value: 0
+      endValue: 0
+    - propertyName: _HitReactVisibility
+      reticleLayer: 1
+      dynamicPropertyType: 2
+      value: 1
+      endValue: 0
+    - propertyName: _Radians45Reference
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: 0.7854
+      endValue: 0
+    outerReticleColorProperties:
+    - propertyName: _ChargeBarColor
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: {r: 1, g: 1, b: 1, a: 0}
+      endValue: {r: 0, g: 0, b: 0, a: 0}
+    - propertyName: _SegmentColor
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      value: {r: 1, g: 0.60341835, b: 0, a: 0}
+      endValue: {r: 0, g: 0, b: 0, a: 0}
+    outerReticleKeywordProperties:
+    - propertyName: _FOVEATED_RENDERING_NON_UNIFORM_RASTER
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    - propertyName: _CHARGECOMPLETE
+      reticleLayer: 1
+      dynamicPropertyType: 3
+      keywordEnabled: 0
+    - propertyName: _ROTATESEGMENTSRUNTIME
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      keywordEnabled: 0
+    - propertyName: _SEGMENTSAREHITREACT
+      reticleLayer: 1
+      dynamicPropertyType: 0
+      keywordEnabled: 1
