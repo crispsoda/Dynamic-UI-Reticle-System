@@ -25,7 +25,7 @@ This system was initially created for my Honours Project, but has now been expan
 ## Overview
 The reticle changes based on an enum state. Each reticle state has a ReticleProfile entry in a ScriptableObject that stores settings for the reticle state, as well as its properties.
 
-![ReticleSystem_Profile](README_Media/ReticleSystem_Profile.png) 
+![ReticleSystem_Profile](README_Media/ReticleSystem_Profile.PNG) 
 
 To transition between reticle states and apply the profiles, you only have to call
 ```
@@ -44,7 +44,7 @@ Instead of copying and pasting every property of a material, you can automatical
 The profile creator takes in materials for each layer and then gets all relevant properties and their current values from that material. <br>
 You will still have to set whether this mode supports hit react animations or charge bar, as well as their durations.
 
-![ReticleSystem_ProfileCreator](README_Media/ReticleSystem_ProfileCreator.png) 
+![ReticleSystem_ProfileCreator](README_Media/ReticleSystem_ProfileCreator.PNG) 
 
 ## Packages
 This system uses DOTween (free version).
